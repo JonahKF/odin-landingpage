@@ -10,12 +10,17 @@ body {
     justify-content: space-between;
 }
 
+p {
+    padding: 0;
+    margin: 0;
+}
+
 .header,
 .website-content-top {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 64px 0 64px;
+    padding: 0 15vw 0 15vw;
 }
 
 .header h1 {
@@ -41,13 +46,16 @@ body {
 }
 
 .website-content-top {
-    padding: 48px;
+    padding: 100px 15vw 100px 15vw;
     gap: 24px;
 }
 
 .website-content-top div {
     /* border: 1px solid red; */ 
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .website-content-top div h2 {
@@ -56,7 +64,21 @@ body {
     margin: 0;
 }
 
+.website-content-top div button {
+    margin: 0;
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 0;
+}
+
 .top-img-placeholder {
     background-color: grey;
     text-align: center;
+    justify-content: center;
 }
+
