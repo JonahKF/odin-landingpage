@@ -109,14 +109,14 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 100px;
-    width: 100px;
+    min-width: 150px;
+    width: 150px;
 }
 
 .card div {
-    height: 100px;
-    width: 100px;
-    border: 2px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
     border-radius: 8px;
 }
 
@@ -125,7 +125,7 @@ p {
 }
 
 .website-content-quote {
-    padding: 70px 15vw 70px 15vw;
+    padding: 90px 15vw 90px 15vw;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -135,20 +135,26 @@ p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin-left: 70px;
+    margin-right: 50px;
+    font-weight: 200;
 }
 
 .quoted-name {
     align-self: self-end;
     font-size: 24px;
     font-weight: 600;
+    margin-right: 40px;
 }
 
 .website-content-cta {
-    margin: 70px 15vw 70px 15vw;
-    padding: 30px 60px 30px 60px;
+    margin: 90px 15vw 90px 15vw;
+    padding: 30px 80px 30px 80px;
     background-color: #3882F6;
     display: flex;
     align-items: center;
+    border-radius: 8px;
+    gap: 10px;
 }
 
 .website-content-cta .left-text {
@@ -157,3 +163,27 @@ p {
     margin-right: auto;
 }
 
+.left-text strong {
+    font-size: 25px;
+}
+
+.website-content-cta .right-button button{
+    margin: 0;
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
